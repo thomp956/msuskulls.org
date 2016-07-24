@@ -1,10 +1,67 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en" ng-app="msuskulls-website">
 <head>
     <title>Phi Kappa Sigma - Michigan State University</title>
 	<meta charset="utf-8" />
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!-- endinject -->
 </head>
 <body>
     Test
+
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="main">
+                    <img src="Content/spartan-skull.gif" style="margin-top: -12px; -webkit-filter: invert(100%) !important;" width="50" height="50" class="img-responsive" alt="Spartan Skulls" />
+                </a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="main">
+                    Spartan Skulls
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="main">Main</a></li>
+                <li><a ui-sref="about">About</a></li>
+                <li><a ui-sref="rush">Rush</a></li>
+                <li><a ui-sref="contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div style="height:75px;">
+
+    </div>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <!--
+    <script type="text/javascript" src="Scripts/dist/scripts.js"></script>
+    <script type="text/javascript" src="Scripts/dist/custom-scripts.js"></script>
+    -->
+    <!-- inject:js -->
+    <script src="/Scripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/Scripts/lib/angular/angular.min.js"></script>
+    <script src="/Scripts/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/Scripts/lib/angular-ui/build/angular-ui.min.js"></script>
+    <script src="/Scripts/lib/angular-ui/build/angular-ui-ieshiv.min.js"></script>
+    <script src="/Scripts/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/Scripts/lib/angular-route/angular-route.min.js"></script>
+    <script src="/Scripts/lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="/Scripts/app/app.js"></script>
+    <script src="/Scripts/app/core/core.js"></script>
+    <script src="/Scripts/app/main/main.js"></script>
+    <script src="/Scripts/app/main/_main-templates.js"></script>
+    <script src="/Scripts/app/core/navigation/menu.js"></script>
+    <script src="/Scripts/app/core/navigation/routeConfig.js"></script>
+    <script src="/Scripts/app/main/aboutPage/about-page.js"></script>
+    <script src="/Scripts/app/main/contactPage/contact-page.js"></script>
+    <script src="/Scripts/app/main/mainPage/main-page.js"></script>
+    <script src="/Scripts/app/main/rushPage/rush-page.js"></script>
+    <!-- endinject -->
 </body>
 </html>
