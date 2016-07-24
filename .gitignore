@@ -3,3 +3,10 @@
 ################################################################################
 
 /msuskulls.org
+/node_modules
+/msuskulls.org.Web/Scripts/lib/bootstrap/node_modules
+/msuskulls.org.Web/Scripts/lib/bootstrap/grunt
+/msuskulls.org.Web/Scripts/lib/bootstrap/fonts
+/msuskulls.org.Web/Scripts/lib/bootstrap/js
+/msuskulls.org.Web/Scripts/lib/bootstrap/less
+/msuskulls.org.Web/Scripts/lib/bootstrap/nuget
