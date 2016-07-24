@@ -1,0 +1,2 @@
+baseurl: /msuskulls.org/msuskulls.org.Web
+exclude: [node_modules, msuskulls.org.Web/Scripts/lib/bootstrap/node_modules ]
